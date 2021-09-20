@@ -40,54 +40,54 @@ namespace Trero
             Modules.Add(new Antibot());
 
             Modules.Add(new Debug());
-            Modules.Add(new AirStuck());
-            Modules.Add(new BulkFly());
             Modules.Add(new AboveAura());
             Modules.Add(new AirJump());
-            Modules.Add(new TPAura());
+            Modules.Add(new AirStuck());
+            Modules.Add(new AntiImmoblie());
+            Modules.Add(new AutoWalk());
+            Modules.Add(new Bhop());
+            Modules.Add(new BulkFly());
+            Modules.Add(new ClickTP());
             Modules.Add(new ClosestPlayerDisplay());
-            Modules.Add(new PlayerDisplay());
-            Modules.Add(new TriggerBot());
-            Modules.Add(new Hitbox());
+            Modules.Add(new CreativeFly());
+            Modules.Add(new Eject());
             Modules.Add(new FlickerExample());
-            Modules.Add(new Phase());
-            Modules.Add(new Noclip());
+            Modules.Add(new Fly());
+            Modules.Add(new Friends());
+            Modules.Add(new Gamemode());
+            Modules.Add(new Glide());
+            Modules.Add(new HighJump());
+            Modules.Add(new Hitbox());
+            Modules.Add(new HiveAntibot());
+            Modules.Add(new InventoryMove());
+            Modules.Add(new Jesus());
+            Modules.Add(new Jetpack());
+            Modules.Add(new KillGame());
+            Modules.Add(new Killaura());
+            Modules.Add(new LBSH());
+            Modules.Add(new Limiter()); // CPU saver
+            Modules.Add(new LongJump());
+            Modules.Add(new MineplexFly());
+            Modules.Add(new NoSwing());
             Modules.Add(new NoYFly());
+            Modules.Add(new Noclip());
+            Modules.Add(new Nofriends());
+            Modules.Add(new Phase());
             Modules.Add(new PhaseDown());
             Modules.Add(new PhaseUp());
-            Modules.Add(new Sexaura());
-            Modules.Add(new Fly());
-            Modules.Add(new Jetpack());
-            Modules.Add(new Eject());
-            Modules.Add(new Speed());
-            Modules.Add(new Bhop());
-            Modules.Add(new SlimeWall());
-            Modules.Add(new LBSH());
-            Modules.Add(new Gamemode());
-            Modules.Add(new Teleport());
-            Modules.Add(new Step());
-            Modules.Add(new HighJump());
-            Modules.Add(new InventoryMove());
-            Modules.Add(new KillGame());
-            Modules.Add(new Jesus());
-            Modules.Add(new NoSwing());
-            Modules.Add(new CreativeFly());
+            Modules.Add(new PlayerDisplay());
             Modules.Add(new PlayerTP());
-            Modules.Add(new ClickTP());
-            Modules.Add(new Glide());
-            Modules.Add(new Killaura());
-            Modules.Add(new AntiImmoblie());
-            Modules.Add(new Reach());
-            Modules.Add(new Limiter()); // CPU saver
-            Modules.Add(new Unlimiter()); // Remove safty ill make these a single module soon
-            Modules.Add(new Friends());
-            Modules.Add(new Nofriends());
-            Modules.Add(new MineplexFly());
-            Modules.Add(new LongJump());
-            Modules.Add(new Zoom());
-            Modules.Add(new AutoWalk());
             Modules.Add(new Rapeaura());
-            Modules.Add(new HiveAntibot());
+            Modules.Add(new Reach());
+            Modules.Add(new Sexaura());
+            Modules.Add(new SlimeWall());
+            Modules.Add(new Speed());
+            Modules.Add(new Step());
+            Modules.Add(new TPAura());
+            Modules.Add(new Teleport());
+            Modules.Add(new TriggerBot());
+            Modules.Add(new Unlimiter()); // Remove safty ill make these a single module soon
+            Modules.Add(new Zoom()); //dexter likes tudou
 
             Console.WriteLine(@"Registered modules!");
 
